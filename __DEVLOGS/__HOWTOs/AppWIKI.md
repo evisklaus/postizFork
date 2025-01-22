@@ -4,7 +4,7 @@ root dir
 docker compose -f "docker-compose.dev.yaml" up
 npm run prisma-db-push
 npm run dev
-
+npx prisma studio --schema ./libraries/nestjs-libraries/src/database/prisma/schema.prisma
 
 ## LOG IN CREDENTIALS ADIN SUPER USER
 email: b2kdev@protonmail.com
